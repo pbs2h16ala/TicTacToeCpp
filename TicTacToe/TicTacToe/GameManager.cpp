@@ -1,24 +1,25 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
-
-#include "stdafx.h"
+#include <iostream>
+#include <iomanip>
+#include <string>
 #include "Player.cpp"
+#include <memory>
 
 
 class GameManager
 {
 private:
+	GameManager();
+	~GameManager();
 
 	bool initNewGameIfPossible;
 public:
-	GameManager();
-	~GameManager();
-	void initNewGame(Player playerOne, Player playerTwo, int winCondition);
+	static std::unique_ptr<GameManager> init();
 	void setGameStartIfPossible();
+	void appStartMessage();
 
 
-	void startMatch(int playerToStart);
-	voif 
 }; // Hier Semikolon nicht vergessen
 
 
@@ -26,7 +27,7 @@ public:
    // Method Implementation
 GameManager::GameManager()
 {
-	setGameStartIfPossible();
+
 }
 
 GameManager::~GameManager()
@@ -34,14 +35,19 @@ GameManager::~GameManager()
 
 }
 
+std::unique_ptr<GameManager> GameManager::init()
+{
+	return std::make_unique<GameManager>();
+}
+
+
+
 void GameManager::setGameStartIfPossible()
 {
 	initNewGameIfPossible = true;
 }
 
-// Game
-
-void initNewGame(Player playerOne, Player playerTwo, int winCondition) 
+void GameManager::appStartMessage()
 {
-
+	std::cout << std::left << std::setw(15) << "Hello World";
 }

@@ -1,7 +1,6 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include "Player.cpp"
 #include "GameField.cpp"
 
@@ -19,7 +18,7 @@ public:
 	int getX();
 	int getY();
 
-}; // Hier Semikolon nicht vergessen
+}; 
 
 Cell::Cell(int x, int y)
 {

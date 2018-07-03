@@ -1,7 +1,6 @@
 // Player.cpp : Defines the Player related data and functions for the game.
 //
 
-#include "stdafx.h"
 
 
 class Player
@@ -13,7 +12,7 @@ private:
 public:
 	Player();
 	~Player();
-	void init(bool isBot);
+	void init(bool pIsBot, int pDifficulty);
 
 }; // Hier Semikolon nicht vergessen
 

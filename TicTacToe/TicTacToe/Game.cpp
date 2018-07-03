@@ -1,7 +1,6 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include "Player.cpp"
 #include "GameField.cpp"
 
@@ -37,16 +36,11 @@ Game::~Game()
 
 }
 
-void GameManager::setGameStartIfPossible()
-{
-	initNewGameIfPossible = true;
-}
-
 // Game
 
 void initNewGame(Player pPlayerOne, Player pPlayerTwo, int pWinCondition)
 {
-	playerOne
+
 
 }
 

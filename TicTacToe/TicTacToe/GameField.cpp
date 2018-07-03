@@ -1,13 +1,14 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
 
-#include "stdafx.h"
 #include "Player.cpp"
+#include <vector>
 
 
 class GameField
 {
 private:
+	//std::vector
 
 public:
 	GameField();
