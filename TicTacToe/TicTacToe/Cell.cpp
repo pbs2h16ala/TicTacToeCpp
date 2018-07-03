@@ -1,34 +1,7 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
 
-#include "Player.cpp"
-#include "GameField.cpp"
-
-
-class Cell
-{
-private:
-
-	int x, y, ownerOfMark;
-
-public:
-	Cell(int x, int y);
-	~Cell();
-	int getOwnerOfMark();
-	int getX();
-	int getY();
-
-}; 
-
-Cell::Cell(int x, int y)
-{
-	ownerOfMark = 0;
-}
-
-Cell::~Cell()
-{
-
-}
+#include "Cell.h"
 
 // Method Implementation
 int Cell::getOwnerOfMark()

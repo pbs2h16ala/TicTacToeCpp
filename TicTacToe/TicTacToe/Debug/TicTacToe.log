@@ -1,0 +1,112 @@
+﻿  Cell.cpp
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): error C2011: 'Player': 'class' type redefinition
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(23): error C2027: use of undefined type 'Player'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(25): error C2065: 'isBot': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(26): error C2065: 'difficulty': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(28): error C2065: 'isBot': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamefield.cpp(55): error C2027: use of undefined type 'Player'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\cell.cpp(24): error C2227: left of '->getOwnerOfMark' must point to class/struct/union/generic type
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\cell.cpp(26): error C2227: left of '->ownerOfMark' must point to class/struct/union/generic type
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\cell.cpp(29): error C2227: left of '->getX' must point to class/struct/union/generic type
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\cell.cpp(34): error C2227: left of '->getY' must point to class/struct/union/generic type
+  Game.cpp
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): error C2011: 'Player': 'class' type redefinition
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(23): error C2027: use of undefined type 'Player'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(25): error C2065: 'isBot': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(26): error C2065: 'difficulty': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(28): error C2065: 'isBot': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamefield.cpp(55): error C2027: use of undefined type 'Player'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\player.cpp(7): note: see declaration of 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(13): error C3646: 'playerOne': unknown override specifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(13): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(14): error C3646: 'playerTwo': unknown override specifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(14): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(16): error C3646: 'gameField': unknown override specifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(16): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(21): error C2061: syntax error: identifier 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(22): error C2061: syntax error: identifier 'Player'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(22): error C2535: 'void Game::initNewGame(void)': member function already defined or declared
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(21): note: see declaration of 'Game::initNewGame'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(29): error C2227: left of '->Game' must point to class/struct/union/generic type
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(34): error C2059: syntax error: '::'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(35): error C2143: syntax error: missing ';' before '{'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(35): error C2447: '{': missing function header (old-style formal list?)
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(41): error C2227: left of '->Player' must point to class/struct/union/generic type
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(41): error C2065: 'Player': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(41): error C2146: syntax error: missing ')' before identifier 'pPlayerOne'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(42): error C2143: syntax error: missing ';' before '{'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(42): error C2447: '{': missing function header (old-style formal list?)
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(47): error C2065: 'Player': undeclared identifier
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(47): error C2146: syntax error: missing ')' before identifier 'pPlayerOne'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(48): error C2143: syntax error: missing ';' before '{'
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\game.cpp(48): error C2447: '{': missing function header (old-style formal list?)
+  GameField.cpp
+  GameManager.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2055): error C2248: 'GameManager::~GameManager': cannot access private member declared in class 'GameManager'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(23): note: compiler has generated 'GameManager::~GameManager' here
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(11): note: see declaration of 'GameManager'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2052): note: while compiling class template member function 'void std::default_delete<_Ty>::operator ()(_Ty *) noexcept const'
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2267): note: see reference to function template instantiation 'void std::default_delete<_Ty>::operator ()(_Ty *) noexcept const' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2103): note: see reference to class template instantiation 'std::default_delete<_Ty>' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2150): note: see reference to class template instantiation 'std::_Unique_ptr_base<_Ty,_Dx>' being compiled
+          with
+          [
+              _Ty=GameManager,
+              _Dx=std::default_delete<GameManager>
+          ]
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(39): note: see reference to class template instantiation 'std::unique_ptr<GameManager,std::default_delete<_Ty>>' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  Main.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2055): error C2248: 'GameManager::~GameManager': cannot access private member declared in class 'GameManager'
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(23): note: compiler has generated 'GameManager::~GameManager' here
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(11): note: see declaration of 'GameManager'
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2052): note: while compiling class template member function 'void std::default_delete<_Ty>::operator ()(_Ty *) noexcept const'
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2267): note: see reference to function template instantiation 'void std::default_delete<_Ty>::operator ()(_Ty *) noexcept const' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2103): note: see reference to class template instantiation 'std::default_delete<_Ty>' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.14.26428\include\memory(2150): note: see reference to class template instantiation 'std::_Unique_ptr_base<_Ty,_Dx>' being compiled
+          with
+          [
+              _Ty=GameManager,
+              _Dx=std::default_delete<GameManager>
+          ]
+  d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamemanager.cpp(39): note: see reference to class template instantiation 'std::unique_ptr<GameManager,std::default_delete<_Ty>>' being compiled
+          with
+          [
+              _Ty=GameManager
+          ]
+  Player.cpp
+  AppDelegator.cpp
+  Generating Code...
+d:\organization - private\projects\tictactoe\tictactoecpp\tictactoe\tictactoe\gamefield.cpp(52): error C4716: 'isCellEmpty': must return a value

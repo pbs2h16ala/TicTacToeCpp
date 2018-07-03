@@ -147,18 +147,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AppDelegator.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="DisplayOutput.h" />
+    <ClInclude Include="Match.h" />
+    <ClInclude Include="MatchField.h" />
+    <ClInclude Include="GameMaster.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Cell.cpp" />
     <ClCompile Include="DisplayOutput.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="GameField.cpp" />
-    <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="Match.cpp" />
+    <ClCompile Include="MatchField.cpp" />
+    <ClCompile Include="GameMaster.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Player.cpp" />
-    <ClCompile Include="PlayerBot.cpp" />
-    <ClCompile Include="ApplicationDelegator.cpp" />
+    <ClCompile Include="AppDelegator.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

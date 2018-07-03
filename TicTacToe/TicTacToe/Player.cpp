@@ -10,8 +10,8 @@ private:
 	int difficulty;
 
 public:
-	Player();
-	~Player();
+	Player() {};
+	~Player() {};
 	void init(bool pIsBot, int pDifficulty);
 
 }; // Hier Semikolon nicht vergessen
@@ -19,15 +19,6 @@ public:
 
 
    // Method Implementation
-Player::Player()
-{
-
-}
-
-Player::~Player()
-{
-
-}
 
 void Player::init(bool pIsBot, int pDifficulty)
 {
@@ -36,7 +27,7 @@ void Player::init(bool pIsBot, int pDifficulty)
 
 	if (isBot)
 	{
-		initPlayerBot();
+		//initPlayerBot();
 	}
 	else
 	{
