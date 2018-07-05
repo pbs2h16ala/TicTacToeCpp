@@ -1,8 +1,7 @@
 #pragma once
 
-#include "Player.cpp"
-#include "GameField.cpp"
-
+#include "Player.h"
+#include "MatchField.h"
 
 class Match
 {
@@ -12,7 +11,7 @@ private:
 	Player playerOne;
 	Player playerTwo;
 
-	GameField gameField;
+	MatchField matchField;
 
 public:
 	Match();

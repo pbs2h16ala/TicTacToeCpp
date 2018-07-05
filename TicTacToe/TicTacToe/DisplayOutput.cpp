@@ -2,16 +2,6 @@
 //
 #include "DisplayOutput.h"
 
-DisplayOutput::DisplayOutput()
-{
-
-}
-
-DisplayOutput::~DisplayOutput()
-{
-
-}
-
 // Method Implementation
 void DisplayOutput::appStartMessage()
 {

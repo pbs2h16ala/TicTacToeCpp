@@ -12,7 +12,7 @@ private:
 	const std::string GAME_VERSION = "1.0";
 
 public:
-	DisplayOutput();
-	~DisplayOutput();
+	DisplayOutput() { };
+	~DisplayOutput() { };
 	static void appStartMessage();
 };

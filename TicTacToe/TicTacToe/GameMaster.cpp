@@ -2,10 +2,21 @@
 //
 #include "GameMaster.h"
 
-   // Method Implementation
-std::unique_ptr<GameMaster> GameMaster::init()
+
+GameMaster::GameMaster()
 {
-	return std::make_unique<GameMaster>();
+
+}
+
+GameMaster::~GameMaster()
+{
+
+}
+
+   // Method Implementation
+std::shared_ptr<GameMaster> GameMaster::init()
+{
+	return std::shared_ptr<GameMaster>();
 }
 
 

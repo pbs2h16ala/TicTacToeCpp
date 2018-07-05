@@ -3,7 +3,6 @@
 #include <iostream>
 #include <iomanip>
 #include <string>
-#include "Player.cpp"
 #include <memory>
 
 
@@ -15,7 +14,7 @@ private:
 
 	bool initNewGameIfPossible;
 public:
-	static std::unique_ptr<GameMaster> init();
+	static std::shared_ptr<GameMaster> init();
 	void setGameStartIfPossible();
 	void appStartMessage();
 

@@ -1,7 +1,6 @@
 #pragma once
-
-#include "Player.cpp"
 #include <vector>
+#include "Player.h"
 
 
 class MatchField
@@ -12,10 +11,10 @@ private:
 public:
 	MatchField();
 	~MatchField();
-	void initEmptyGameField();
-	void initEmptyGameField(int sizeX, int sizeY);
+	void initEmptyMatchField();
+	void initEmptyMatchField(int x, int y);
 
 	bool isCellEmpty(int x, int y);
-
+	void markCellForPlayer(Player player);
 
 }; // Hier Semikolon nicht vergessen

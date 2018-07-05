@@ -16,13 +16,18 @@ Match::~Match()
 
 // Game
 
-void initNewGame(Player pPlayerOne, Player pPlayerTwo, int pWinCondition)
+void Match::initNewGame(Player pPlayerOne, Player pPlayerTwo, int pWinCondition)
 {
 
 
 }
 
-void initNewGame(Player pPlayerOne, Player pPlayerTwo, int pWinCondition, int pPlayerOnTurn)
+void Match::initNewGame(Player pPlayerOne, Player pPlayerTwo, int pWinCondition, int pPlayerOnTurn)
+{
+
+}
+
+void Match::startMatch(int playerToStart) 
 {
 
 }

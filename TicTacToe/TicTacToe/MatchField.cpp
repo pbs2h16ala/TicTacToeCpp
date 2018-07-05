@@ -16,22 +16,22 @@ MatchField::~MatchField()
 
 // Game
 
-void initEmptyGameField()
+void MatchField::initEmptyMatchField()
 {
 
 }
 
-void initEmptyGameField(int sizeX, int sizeY)
+void MatchField::initEmptyMatchField(int sizeX, int sizeY)
 {
 
 }
 
-bool isCellEmpty(int x, int y) 
+bool MatchField::isCellEmpty(int x, int y)
 {
-
+	return true;
 }
 
-void markCellForPlayer(Player player) 
+void MatchField::markCellForPlayer(Player player)
 {
 
 }

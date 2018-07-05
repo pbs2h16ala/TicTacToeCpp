@@ -1,12 +1,12 @@
 
-#include "GameManager.cpp"
+#include "GameMaster.h"
 
 
-	std::unique_ptr<GameManager> gm;
+	std::shared_ptr<GameMaster> gm;
 
 	int main()
 	{
-		gm = GameManager::init();
+		gm = GameMaster::init();
 
 
 
