@@ -3,9 +3,9 @@
 
 #include "Cell.h"
 
-std::shared_ptr<Cell> Cell::getShared()
+std::shared_ptr<Cell> Cell::newShared()
 {
-	return std::shared_ptr<Cell>();
+	return std::make_shared<Cell>();
 }
 
 // Method Implementation
@@ -29,4 +29,9 @@ int Cell::getX()
 int Cell::getY()
 {
 	return y;
+}
+
+std::string Cell::toString() 
+{
+	return "x: " + std::to_string(this->x) + "  y: " + std::to_string(this->y) + "  ownerOfMark: " + std::to_string(this->ownerOfMark) + "\n";
 }

@@ -1,2 +1,5 @@
-﻿  GameMaster.cpp
+﻿  AppDelegator.cpp
+  GameMaster.cpp
+  Main.cpp
+  Generating Code...
   TicTacToe.vcxproj -> D:\organization - private\projects\TicTacToe\TicTacToeCpp\TicTacToe\Debug\TicTacToe.exe

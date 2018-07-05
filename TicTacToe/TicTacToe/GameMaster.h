@@ -9,12 +9,15 @@
 class GameMaster
 {
 private:
-	GameMaster();
-	~GameMaster();
 
-	bool initNewGameIfPossible;
+	bool shouldStartNewGame;
 public:
-	static std::shared_ptr<GameMaster> init();
+	GameMaster() {};
+	~GameMaster() {};
+	static std::shared_ptr<GameMaster> newShared();
+	void setup();
+
+	void requestForNewGame();
 	void setGameStartIfPossible();
 	void appStartMessage();
 

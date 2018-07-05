@@ -1,18 +1,16 @@
 
-#include "GameMaster.h"
-#include "windows.h"
+#include "AppDelegator.h"
+#include <string>
 
+	std::shared_ptr<AppDelegator> appDelegator;
 
-	std::shared_ptr<GameMaster> gm;
 
 	int main()
 	{
-		gm = GameMaster::init();
+		appDelegator = AppDelegator::newShared();
+		appDelegator->setup();
 
-
-
-		gm->appStartMessage();
-		
+		appDelegator->runLoop();
 
 		return 0;
 	}

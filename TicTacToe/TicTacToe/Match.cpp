@@ -4,14 +4,10 @@
 #include "Match.h"
 
    // Method Implementation
-Match::Match()
+
+std::shared_ptr<Match> Match::newShared() 
 {
-
-}
-
-Match::~Match()
-{
-
+	return std::make_shared<Match>();
 }
 
 // Game

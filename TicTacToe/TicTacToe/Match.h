@@ -14,8 +14,9 @@ private:
 	MatchField matchField;
 
 public:
-	Match();
-	~Match();
+
+	static std::shared_ptr<Match> newShared();
+
 	void initNewGame(Player, Player, int pWinCondition);
 	void initNewGame(Player, Player, int pWinCondition, int pPlayerOnTurn);
 	void startMatch(int playerToStart);
