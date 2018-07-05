@@ -4,6 +4,8 @@
 #include <iomanip>
 #include <string>
 #include <memory>
+#include "DisplayOutput.h"
+#include "AppDelegator.h"
 
 
 class GameMaster
@@ -17,7 +19,7 @@ public:
 	static std::shared_ptr<GameMaster> newShared();
 	void setup();
 
-	void requestForNewGame();
+	AppDelegator::InputCommand requestForNewGame();
 	void setGameStartIfPossible();
 	void appStartMessage();
 

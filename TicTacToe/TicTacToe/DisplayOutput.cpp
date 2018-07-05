@@ -31,3 +31,9 @@ void DisplayOutput::appStartMessage()
 	std::printf("     ###                |            |             |                                             # \n");
 	std::printf("      ############################################################################################ \n");
 }
+
+void DisplayOutput::line(std::string text)
+{
+	std::cout << "  #   ## " + text + "\n";
+}
+

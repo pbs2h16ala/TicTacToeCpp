@@ -13,4 +13,5 @@ private:
 public:
 
 	static void appStartMessage();
+	static void line(std::string text);
 };
