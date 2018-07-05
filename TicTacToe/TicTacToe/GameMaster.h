@@ -12,7 +12,9 @@ class GameMaster
 {
 private:
 
+	bool isAnyGameActive;
 	bool shouldStartNewGame;
+
 public:
 	GameMaster() {};
 	~GameMaster() {};
@@ -20,6 +22,7 @@ public:
 	void setup();
 
 	AppDelegator::InputCommand requestForNewGame();
+	void runNewGameLoop();
 	void startNewMatch();
 
 

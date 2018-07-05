@@ -28,6 +28,11 @@ AppDelegator::InputCommand GameMaster::requestForNewGame()
 	return inputCommand;
 }
 
+void GameMaster::runNewGameLoop() 
+{
+
+};
+
 void GameMaster::startNewMatch()
 {
 
