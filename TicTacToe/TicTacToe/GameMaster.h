@@ -20,8 +20,7 @@ public:
 	void setup();
 
 	AppDelegator::InputCommand requestForNewGame();
-	void setGameStartIfPossible();
-	void appStartMessage();
+	void startNewMatch();
 
 
 }; // Hier Semikolon nicht vergessen

@@ -10,8 +10,11 @@ private:
 
 	std::shared_ptr<GameMaster> gameMaster;
 
-	void cmdGmNewMatch();
+	void cmdHelp();
 	void cmdAppClose();
+	void cmdGmNewMatch();
+	void cmdIllegal();
+
 public:
 	enum AppState:int 
 	{
@@ -27,9 +30,10 @@ public:
 		EXIT_APP = 'q',
 		HELP = 'h',
 		NEW_MATCH = 'm',
+		ILLEGAL_CMD = 'I'
 	};
-	AppState appStatus;
 
+	AppState appStatus;
 
 	AppDelegator() { };
 	~AppDelegator() { };
@@ -38,7 +42,8 @@ public:
 	void setup();
 	void runLoop();
 	void executeCommand(AppDelegator::InputCommand inputCommand);
-	static char getUserInputChar();
+	static AppDelegator::InputCommand getUserInputCommand();
+	static bool checkForAppClose(AppDelegator::InputCommand inputCommand);
 
 
 }; // Hier Semikolon nicht vergessen

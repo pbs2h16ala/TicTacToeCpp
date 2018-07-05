@@ -18,34 +18,17 @@ AppDelegator::InputCommand GameMaster::requestForNewGame()
 {
 	DisplayOutput::line("Please enter your command.. \n");
 
-	char userInput = AppDelegator::getUserInputChar();
-	AppDelegator::InputCommand inputCommand;
+	AppDelegator::InputCommand inputCommand = AppDelegator::getUserInputCommand();
 
-	userInput = tolower(userInput);
-
-	switch (userInput)
+	if (inputCommand != AppDelegator::InputCommand::NEW_MATCH && inputCommand != AppDelegator::InputCommand::HELP && inputCommand != AppDelegator::InputCommand::EXIT_APP )
 	{
-		case 'm': inputCommand = AppDelegator::InputCommand::NEW_MATCH;
-			break;
-
-		case 'h': inputCommand = AppDelegator::InputCommand::HELP;
-			break;
-
-		case 'q': inputCommand = AppDelegator::InputCommand::EXIT_APP; 
-			break;
-
-		default: return this->requestForNewGame(); 
+		return AppDelegator::InputCommand::ILLEGAL_CMD;
 	}
 
 	return inputCommand;
 }
 
-void GameMaster::setGameStartIfPossible()
-{
-
-}
-
-void GameMaster::appStartMessage()
+void GameMaster::startNewMatch()
 {
 
 }
