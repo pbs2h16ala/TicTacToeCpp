@@ -1,7 +1,7 @@
 // TicTacToe.cpp : Defines the entry point for the console application.
 //
 #include "MatchField.h"
-#include "DisplayOutput.h"
+#include "Console.h"
 #include <iostream>
 
 
@@ -35,7 +35,7 @@ void MatchField::initEmptyMatchField(int sizeX, int sizeY)
 			this->vc_MatchField[index] = cellToInit;
 		}
 	}
-	DisplayOutput::appStartMessage();
+	Console::appStartMessage();
 }
 
 bool MatchField::isCellEmpty(int x, int y)

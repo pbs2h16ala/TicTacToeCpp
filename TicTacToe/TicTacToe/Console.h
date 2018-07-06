@@ -1,9 +1,10 @@
 #pragma once
 
+#include "Enums.h"
 #include <iostream>
 #include <string>
 
-class DisplayOutput
+class Console
 {
 private:
 	const std::string GAME_TITLE = "Tic Tac Toe";
@@ -16,5 +17,6 @@ public:
 	static void line(std::string text);
 	static void illegalCmdAlert();
 	static void displayHelp();
+	static Enums::InputCommand getUserInputCommand();
 
 };

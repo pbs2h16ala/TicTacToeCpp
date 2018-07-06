@@ -1,5 +1,6 @@
 #pragma once
 #include "GameMaster.h"
+#include "Enums.h"
 #include <iostream>
 #include <memory>
 
@@ -8,32 +9,15 @@ class AppDelegator
 {
 private:
 
-	std::shared_ptr<GameMaster> gameMaster;
-
 	void cmdHelp();
 	void cmdAppClose();
-	void cmdGmNewMatch();
+	void cmdGmNewGame();
 	void cmdIllegal();
 
 public:
-	enum AppState:int 
-	{
-		APP_START = 2,
-		APP_INITIALIZE = 4,
-		EXIT_RUNLOOP = 12,
-	    RUNLOOP_CLOSED = 16
-	};
-	enum InputCommand :char
-	{
-		YES = 'y',
-		NO = 'n',
-		EXIT_APP = 'q',
-		HELP = 'h',
-		NEW_MATCH = 'm',
-		ILLEGAL_CMD = 'I'
-	};
 
-	AppState appStatus;
+	Enums::AppState appStatus;
+	std::shared_ptr<GameMaster> gameMaster;
 
 	AppDelegator() { };
 	~AppDelegator() { };
@@ -41,9 +25,7 @@ public:
 
 	void setup();
 	void runLoop();
-	void executeCommand(AppDelegator::InputCommand inputCommand);
-	static AppDelegator::InputCommand getUserInputCommand();
-	static bool checkForAppClose(AppDelegator::InputCommand inputCommand);
-
+	void executeCommand(Enums::InputCommand inputCommand);
+	static bool checkForAppClose(Enums::InputCommand inputCommand);
 
 }; // Hier Semikolon nicht vergessen

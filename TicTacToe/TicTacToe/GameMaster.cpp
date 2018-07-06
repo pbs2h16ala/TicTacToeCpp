@@ -14,15 +14,15 @@ void GameMaster::setup()
 
 }
 
-AppDelegator::InputCommand GameMaster::requestForNewGame()
+Enums::InputCommand GameMaster::requestForNewGame()
 {
-	DisplayOutput::line("Please enter your command.. \n");
+	Console::line("Please enter your command.. \n");
 
-	AppDelegator::InputCommand inputCommand = AppDelegator::getUserInputCommand();
+	Enums::InputCommand inputCommand = Console::getUserInputCommand();
 
-	if (inputCommand != AppDelegator::InputCommand::NEW_MATCH && inputCommand != AppDelegator::InputCommand::HELP && inputCommand != AppDelegator::InputCommand::EXIT_APP )
+	if (inputCommand != Enums::InputCommand::NEW_MATCH && inputCommand != Enums::InputCommand::HELP && inputCommand != Enums::InputCommand::EXIT_APP )
 	{
-		return AppDelegator::InputCommand::ILLEGAL_CMD;
+		return Enums::InputCommand::ILLEGAL_CMD;
 	}
 
 	return inputCommand;

@@ -4,8 +4,9 @@
 #include <iomanip>
 #include <string>
 #include <memory>
-#include "DisplayOutput.h"
-#include "AppDelegator.h"
+#include "Console.h"
+#include "Enums.h"
+
 
 
 class GameMaster
@@ -21,7 +22,7 @@ public:
 	static std::shared_ptr<GameMaster> newShared();
 	void setup();
 
-	AppDelegator::InputCommand requestForNewGame();
+	Enums::InputCommand requestForNewGame();
 	void runNewGameLoop();
 	void startNewMatch();
 
